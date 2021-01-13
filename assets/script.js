@@ -36,7 +36,6 @@ $(document).ready(function () {
         // loop over hourblocks
         $(".time-block").each(function () {
             var hourBlock = parseInt($(this).attr("id").split("hour")[1]);
-            console.log( hourBlock, currentHour)
 
             //establish current hourblock  
             if (hourBlock < currentHour) {
